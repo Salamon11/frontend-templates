@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            /* padding: 0px;
+            margin: 0px; */
+            font-family: sans-serif;
+        }
+        body{
+            background-image: url(./media/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #top{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 13px;
+        }
+        .top-content{
+            color: white;
+            font-size: 20px;
+        }
+        #top>div{
+            margin-right: 15px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .google{
+            display: flex;
+            justify-content: center;
+            margin-top: 200px;
+            color: white;
+            font-size: 75px;
+            font-weight: 500px;
+            margin-bottom: 15px;
+            
+        }
+        #in{
+            display: flex;
+            justify-content: center;
+        }
+        .lens{
+            border-left: 1px solid black;
+            border-bottom-left-radius: 25px;
+            border-top-left-radius: 25px;
+            width: 40px;
+            padding-left: 15px;
+            
+        }
+        input{
+            display: flex;
+            justify-content: center;
+            border: none;
+            width: 450px;
+            height: 43px;
+            padding: 0px;
+            
+        }
+        input:hover{
+            border: none;
+        }
+        .url,.mic,.cam,.lens{
+            background-color: white;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            height: 30px;
+            
+        }
+        .mic,.cam,.lens{
+            width: 35px;
+            padding-top: 13px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .cam{
+            border-right: 1px solid black;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        #Shortcut{
+            background-color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-top: 20px;
+            /* margin-left: 740px;
+            margin-top: 30px; */
+        }
+        #short{
+            display: flex;
+            justify-content: center;
+        }
+        .plus{
+            padding-left: 17px;
+            padding-top: 17px;
+        }
+        .add{
+            display: flex;
+            justify-content: center;
+            /* margin-left: 720px; */
+            color: white;
+        }
+        #bottom{
+            display: flex;
+            color: white;
+            justify-content: space-between;
+            margin-top: 190px;
+            margin-left: 30px;
+            margin-right: 30px;
+            /* color: white; */
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+        <div><a href="#" class="top-content">Gmail</a>
+        </div>
+        <div><a href="#" class="top-content">Images</a>
+        </div>
+        <div><i class="fa-solid fa-flask top-content"></i>
+        </div>
+        <div><i class="fa-solid fa-bars top-content"></i>
+        </div>
+        <div><i class="fa-solid fa-user top-content"></i>
+        </div>
+    </div>
+    <div id="mid">
+        <div class="google">Google</div>
+        <div id="in">
+            <div class="lens"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="url"><input type="text" placeholder="Search google or type URL"></div>
+            <div class="mic"><i class="fa-solid fa-microphone "></i></div>
+            <div class="cam"><i class="fa-solid fa-camera "></i></div>
+        </div>
+        <div id="short">
+        <div id="Shortcut"><i class="fa-solid fa-plus plus "></i></div>
+    </div>
+        <div><p class="add">Add Shortcut</p></div>
+        
+    </div>
+    <div id="bottom">
+        <i class="fa-solid fa-link"></i>
+        <i class="fa-regular fa-pen-to-square"></i>
+    </div>
+</body>
+</html>
